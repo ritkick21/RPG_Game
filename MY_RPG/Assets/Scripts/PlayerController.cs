@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update(){
 
-        if (Time.time > lastDashTime + .15f) {
+        if (Time.time > lastDashTime + .075f) {
             PlayerInput();
             lastDashTime = Time.time;
         }
