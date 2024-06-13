@@ -15,10 +15,10 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private float directionX;
     private float directionY;
-    private float lastDashTime;
+    private float lastInputTime;
 
     private void Awake() {
-        lastDashTime = Time.time;
+        lastInputTime = Time.time;
         playerControls = new PlayerControls();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
@@ -30,9 +30,9 @@ public class PlayerController : MonoBehaviour
 
     private void Update(){
 
-        if (Time.time > lastDashTime + .075f) {
+        if (Time.time > lastInputTime + .075f) {
             PlayerInput();
-            lastDashTime = Time.time;
+            lastInputTime = Time.time;
         }
 
     }
@@ -43,12 +43,7 @@ public class PlayerController : MonoBehaviour
     private void PlayerInput(){
         movement = playerControls.Movement.Move.ReadValue<Vector2>();
         
-        if (movement.x != 0 && movement.y != 0)
-        {
-            directionX = movement.x;
-            directionY = movement.y;
-        }
-        else if (movement.x != 0 || movement.y != 0)
+        if (movement.x != 0 || movement.y != 0)
         {
             directionX = movement.x;
             directionY = movement.y;

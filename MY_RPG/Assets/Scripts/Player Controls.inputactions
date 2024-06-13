@@ -1,14 +1,14 @@
 {
-    "name": "New Controls",
+    "name": "Player Controls",
     "maps": [
         {
             "name": "Movement",
-            "id": "e6cd69b3-e440-4aca-8cb5-5f914df599df",
+            "id": "7b5e7ca2-fb31-4dd7-beaa-b478666c10bb",
             "actions": [
                 {
                     "name": "Move",
                     "type": "PassThrough",
-                    "id": "e5568bbd-85ff-404c-9c92-1d386c4fffa6",
+                    "id": "fd649dc3-9bdc-4d4f-a815-48dd9de55f84",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -18,7 +18,7 @@
             "bindings": [
                 {
                     "name": "2D Vector",
-                    "id": "1babd5eb-3ea2-4925-ba0f-e289cedbedd7",
+                    "id": "f3191656-a21c-4493-9387-54cd680c2757",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -29,8 +29,8 @@
                 },
                 {
                     "name": "up",
-                    "id": "eadeeb35-f29a-40f9-b24b-b8fc8f6bd747",
-                    "path": "<Keyboard>/upArrow",
+                    "id": "efaaaa4f-0f97-4449-9672-f69efa38229e",
+                    "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -40,8 +40,8 @@
                 },
                 {
                     "name": "down",
-                    "id": "15a05b58-afbd-49e5-bd2f-d0538ef3fa33",
-                    "path": "<Keyboard>/downArrow",
+                    "id": "128c4ed3-56c8-4033-aff7-9c0a24e096ec",
+                    "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -51,8 +51,8 @@
                 },
                 {
                     "name": "left",
-                    "id": "79ddafa4-a0d0-4092-9ad8-4c0972aa2cb1",
-                    "path": "<Keyboard>/leftArrow",
+                    "id": "1c45f619-d8b5-4cfe-a1f4-17f2c5db8ac6",
+                    "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -62,8 +62,8 @@
                 },
                 {
                     "name": "right",
-                    "id": "58c4a3ea-8a3e-47cb-a941-b6d7d87203ae",
-                    "path": "<Keyboard>/rightArrow",
+                    "id": "dc88c93f-c17f-4360-844a-c5a7697a8ea4",
+                    "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
