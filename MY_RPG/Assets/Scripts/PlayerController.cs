@@ -15,9 +15,10 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private float directionX;
     private float directionY;
-    private float lastDashTime = Time.time;
+    private float lastDashTime;
 
     private void Awake() {
+        lastDashTime = Time.time;
         playerControls = new PlayerControls();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
