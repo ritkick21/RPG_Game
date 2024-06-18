@@ -202,7 +202,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RustlingAnimation_0: 2750072404386566548
+      RustlingAnimation_1: 801357322057947553
+      RustlingAnimation_2: 6454063135633222733
+      RustlingAnimation_3: 6087046607660803282
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
