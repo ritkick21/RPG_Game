@@ -123,27 +123,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: WoodlandTree_1
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 7
-        width: 91
-        height: 108
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 81394804a2efc3cc0800000000000000
-      internalID: -3729826933945101544
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -156,7 +135,6 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       WoodlandTree_0: 903496405735059585
-      WoodlandTree_1: -3729826933945101544
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
