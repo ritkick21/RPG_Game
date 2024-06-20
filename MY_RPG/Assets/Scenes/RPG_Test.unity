@@ -329,11 +329,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4319032883240625429, guid: ddde8d76ecff17a4ab955f47db54fd56, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.59
+      value: 6.76
       objectReference: {fileID: 0}
     - target: {fileID: 4319032883240625429, guid: ddde8d76ecff17a4ab955f47db54fd56, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.29
+      value: -1.3
       objectReference: {fileID: 0}
     - target: {fileID: 4319032883240625429, guid: ddde8d76ecff17a4ab955f47db54fd56, type: 3}
       propertyPath: m_LocalPosition.z
@@ -367,6 +367,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5019766441754066454, guid: ddde8d76ecff17a4ab955f47db54fd56, type: 3}
+      propertyPath: m_Size.x
+      value: 3.609704
+      objectReference: {fileID: 0}
+    - target: {fileID: 5019766441754066454, guid: ddde8d76ecff17a4ab955f47db54fd56, type: 3}
+      propertyPath: m_Size.y
+      value: 1.4545683
+      objectReference: {fileID: 0}
+    - target: {fileID: 5019766441754066454, guid: ddde8d76ecff17a4ab955f47db54fd56, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.11012191
+      objectReference: {fileID: 0}
+    - target: {fileID: 5019766441754066454, guid: ddde8d76ecff17a4ab955f47db54fd56, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.5430216
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223650547422462097, guid: ddde8d76ecff17a4ab955f47db54fd56, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 903496405735059585, guid: 756779a7f47ea254fb72caa5d5c9c726, type: 3}
     - target: {fileID: 8342847931812468840, guid: ddde8d76ecff17a4ab955f47db54fd56, type: 3}
       propertyPath: m_Name
       value: Tree (3)
@@ -783,6 +803,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Slime (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6984019682151041128, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a8da3263f24b75d48849dbfcd4416399, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -946,6 +970,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blue Slime (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6984019682151041128, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a8da3263f24b75d48849dbfcd4416399, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1174,6 +1202,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5019766441754066454, guid: ddde8d76ecff17a4ab955f47db54fd56, type: 3}
+      propertyPath: m_Size.x
+      value: 3.2465668
+      objectReference: {fileID: 0}
+    - target: {fileID: 5019766441754066454, guid: ddde8d76ecff17a4ab955f47db54fd56, type: 3}
+      propertyPath: m_Size.y
+      value: 1.5081432
+      objectReference: {fileID: 0}
+    - target: {fileID: 5019766441754066454, guid: ddde8d76ecff17a4ab955f47db54fd56, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.13466533
+      objectReference: {fileID: 0}
+    - target: {fileID: 5019766441754066454, guid: ddde8d76ecff17a4ab955f47db54fd56, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.5174214
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223650547422462097, guid: ddde8d76ecff17a4ab955f47db54fd56, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 903496405735059585, guid: 756779a7f47ea254fb72caa5d5c9c726, type: 3}
     - target: {fileID: 8342847931812468840, guid: ddde8d76ecff17a4ab955f47db54fd56, type: 3}
       propertyPath: m_Name
       value: Tree
