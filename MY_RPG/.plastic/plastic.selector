@@ -1,4 +1,0 @@
-repository "RPG_GAME@unity_6D6AF447400649960F8F@cloud"
-  path "/"
-    br "/main"
-    co "/main"
