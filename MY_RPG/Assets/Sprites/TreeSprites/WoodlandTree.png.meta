@@ -40,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -78,7 +78,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -107,11 +107,16 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 14
+<<<<<<< Updated upstream
         y: 7
         width: 95
         height: 108
-      alignment: 0
-      pivot: {x: 0, y: 0}
+=======
+        y: 0
+        width: 98
+        height: 115
+      alignment: 9
+      pivot: {x: 0.525, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -123,10 +128,53 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: WoodlandTree_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+>>>>>>> Stashed changes
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1803eafa13dd98c00800000000000000
+      internalID: 903496405735059585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WoodlandTree_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 92
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d989a562fd7454246a30f9862ac43e3e
+      internalID: -1112125302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: fd71ba1166e6ceb43865e3caf2de1885
     internalID: 0
     vertices: []
     indices: 
@@ -135,6 +183,11 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       WoodlandTree_0: 903496405735059585
+<<<<<<< Updated upstream
+=======
+      WoodlandTree_1: -3729826933945101544
+      WoodlandTree_2: -1112125302
+>>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
