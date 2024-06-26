@@ -7,8 +7,10 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     
-    public float moveSpeed = 9f;
-    public Animator animator;
+    [SerializeField] float moveSpeed = 9f;
+    [SerializeField] Animator animator;
+    public Collider2D playerCol;
+
 
     private PlayerControls playerControls;
     private Vector2 movement;
