@@ -12,16 +12,15 @@ public class EnemyAI : MonoBehaviour
 
     [SerializeField] Collider2D slimeCol;
     [SerializeField] Animator animator;
-    [SerializeField] Collider2D playerCol;
+    [SerializeField] Animation blueSlimeIdle;
     private State state;
     private EnemyPathfinding enemyPathfinding;
-    bool isCurrentlyColliding;
+    bool isCurrentlyColliding = false;
 
     private void Awake() {
         enemyPathfinding = GetComponent<EnemyPathfinding>();
         slimeCol = GetComponent<Collider2D>();
         animator = GetComponent<Animator>();
-        playerCol = GetComponent<Collider2D>();
         state = State.Roaming;
     }
 
@@ -32,9 +31,9 @@ public class EnemyAI : MonoBehaviour
     private IEnumerator RoamingRoutine() {
         while (state == State.Roaming)
         {
+            animator.SetTrigger("Roaming");
             Vector2 roamPosition = GetRoamingPosition();
             enemyPathfinding.MoveTo(roamPosition);
-            OnTriggerEnter2D(playerCol);
             if(isCurrentlyColliding == true){
                 state = State.Battling;
                 StartCoroutine(BattlingRoutine());               
@@ -44,15 +43,26 @@ public class EnemyAI : MonoBehaviour
     }
 
     private IEnumerator BattlingRoutine(){
-        
-        yield return new WaitForSeconds(2f);
+        while(state == State.Battling){
+            animator.SetTrigger("Battling");
+            Vector2 currentPosition = GetCurrentPosition();
+            enemyPathfinding.MoveTo(currentPosition);
+            yield return new WaitForSeconds(2f);
+        }
     }
 
-    void OnTriggerEnter2D(Collider2D other) {
-        isCurrentlyColliding = true;
+    void OnCollisionEnter2D(Collision2D other) {
+        var tag = other.gameObject.tag;
+        //Debug.Log("Collision2D Enter Triggered " + tag);
+        if (tag == "Player")
+            isCurrentlyColliding = true;
     }   
 
     private Vector2 GetRoamingPosition() {
         return new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
+    }
+
+    private Vector2 GetCurrentPosition() {
+        return new Vector2(0, 0).normalized;
     }
 }

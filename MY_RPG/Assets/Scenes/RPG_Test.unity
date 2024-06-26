@@ -450,7 +450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 8
   animator: {fileID: 189016559}
-  playerCol: {fileID: 189016560}
+  playerCol: {fileID: 0}
 --- !u!95 &189016559
 Animator:
   serializedVersion: 7
@@ -4319,6 +4319,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3124153167307113793, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_Mass
+      value: 1000000
+      objectReference: {fileID: 0}
+    - target: {fileID: 3124153167307113793, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3894226944652823065, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
       propertyPath: animator
       value: 
@@ -4339,6 +4347,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: a8da3263f24b75d48849dbfcd4416399, type: 2}
+    - target: {fileID: 8223412162018830354, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
