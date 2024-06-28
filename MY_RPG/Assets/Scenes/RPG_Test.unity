@@ -292,6 +292,91 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &117272456
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 388854084420990138, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 388854084420990138, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 388854084420990138, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388854084420990138, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 388854084420990138, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388854084420990138, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388854084420990138, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388854084420990138, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388854084420990138, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388854084420990138, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3124153167307113793, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_Mass
+      value: 1000000
+      objectReference: {fileID: 0}
+    - target: {fileID: 3124153167307113793, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3894226944652823065, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 2093141566}
+    - target: {fileID: 3894226944652823065, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: slimeCol
+      value: 
+      objectReference: {fileID: 2093141568}
+    - target: {fileID: 3894226944652823065, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: playerCol
+      value: 
+      objectReference: {fileID: 189016560}
+    - target: {fileID: 4381679031660386443, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_Name
+      value: Blue Slime (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6984019682151041128, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a8da3263f24b75d48849dbfcd4416399, type: 2}
+    - target: {fileID: 8223412162018830354, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
 --- !u!1 &164572165 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8342847931812468840, guid: ddde8d76ecff17a4ab955f47db54fd56, type: 3}
@@ -872,6 +957,91 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &435399126
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 388854084420990138, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 388854084420990138, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 388854084420990138, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388854084420990138, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 388854084420990138, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388854084420990138, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388854084420990138, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388854084420990138, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388854084420990138, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 388854084420990138, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3124153167307113793, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_Mass
+      value: 1000000
+      objectReference: {fileID: 0}
+    - target: {fileID: 3124153167307113793, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3894226944652823065, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1112104883}
+    - target: {fileID: 3894226944652823065, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: slimeCol
+      value: 
+      objectReference: {fileID: 1112104885}
+    - target: {fileID: 3894226944652823065, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: playerCol
+      value: 
+      objectReference: {fileID: 189016560}
+    - target: {fileID: 4381679031660386443, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_Name
+      value: Blue Slime (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6984019682151041128, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a8da3263f24b75d48849dbfcd4416399, type: 2}
+    - target: {fileID: 8223412162018830354, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
 --- !u!1 &437854837 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8342847931812468840, guid: ddde8d76ecff17a4ab955f47db54fd56, type: 3}
@@ -2212,6 +2382,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!95 &1112104883 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6984019682151041128, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+  m_PrefabInstance: {fileID: 435399126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!70 &1112104885 stripped
+CapsuleCollider2D:
+  m_CorrespondingSourceObject: {fileID: 8223412162018830354, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+  m_PrefabInstance: {fileID: 435399126}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1180373534 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8342847931812468840, guid: ddde8d76ecff17a4ab955f47db54fd56, type: 3}
@@ -4244,6 +4424,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!95 &2093141566 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6984019682151041128, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+  m_PrefabInstance: {fileID: 117272456}
+  m_PrefabAsset: {fileID: 0}
+--- !u!70 &2093141568 stripped
+CapsuleCollider2D:
+  m_CorrespondingSourceObject: {fileID: 8223412162018830354, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
+  m_PrefabInstance: {fileID: 117272456}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2106010625 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8342847931812468840, guid: ddde8d76ecff17a4ab955f47db54fd56, type: 3}
@@ -4281,11 +4471,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 388854084420990138, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.6500001
+      value: 1.38
       objectReference: {fileID: 0}
     - target: {fileID: 388854084420990138, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.6600002
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 388854084420990138, guid: 4559414cfdee42f4eb927a3ff751f8a7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4365,6 +4555,8 @@ SceneRoots:
   - {fileID: 189016557}
   - {fileID: 1697182057}
   - {fileID: 740507142382560456}
+  - {fileID: 117272456}
+  - {fileID: 435399126}
   - {fileID: 1883023198}
   - {fileID: 672796519}
   - {fileID: 1109889785}
