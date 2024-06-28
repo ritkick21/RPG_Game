@@ -34,10 +34,6 @@ public class EnemyAI : MonoBehaviour
             animator.SetTrigger("Roaming");
             Vector2 roamPosition = GetRoamingPosition();
             enemyPathfinding.MoveTo(roamPosition);
-            if(isCurrentlyColliding == true){
-                state = State.Battling;
-                StartCoroutine(BattlingRoutine());               
-            }
             yield return new WaitForSeconds(2f);
         }
     }
@@ -54,8 +50,11 @@ public class EnemyAI : MonoBehaviour
     void OnCollisionEnter2D(Collision2D other) {
         var tag = other.gameObject.tag;
         //Debug.Log("Collision2D Enter Triggered " + tag);
-        if (tag == "Player")
+        if (tag == "Player"){
             isCurrentlyColliding = true;
+            state = State.Battling;
+            StartCoroutine(BattlingRoutine());
+        }
     }   
 
     private Vector2 GetRoamingPosition() {
